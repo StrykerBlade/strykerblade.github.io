@@ -31,7 +31,7 @@ body{
 
 }
 .para1{
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/2;
 }
 .monitor{
@@ -41,7 +41,7 @@ body{
     grid-row: 1/2;
 }
 .para2{
-    grid-column: 3/4;
+    grid-column: 2/4;
     grid-row: 2/3;
 }
 .error{
@@ -51,7 +51,7 @@ body{
     grid-row: 2/3;
 }
 .para3{
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 3/4;
 }
 .feedback{
@@ -72,13 +72,54 @@ body{
 .customers{
     grid-column: 2/3;
 }
+.accordion {
+    background-color: #A43312;
+    color: #0A0500;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    grid-column: 2/4;
+  }
+  .active, .accordion:hover {
+    background-color: #C97B2C;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }
+
+
+
+
+
+
+
+
+
+
 footer{
     padding: 25px 50px;
     margin-top: 200px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #013140;;
+    background-color: #013140;
     }
 footer h3{color: #C97B2C;}
 footer a{color: #C97B2C;; 

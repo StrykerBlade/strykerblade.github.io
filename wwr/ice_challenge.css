@@ -13,6 +13,8 @@
     height: 900px;
     }
     body{background-color: dimgray;}
+    .circle{grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;}
     .desk{
         border-radius: 50%;
         height: 250px;
@@ -20,6 +22,7 @@
         border: 20px solid ;
         color:rgb(31,38,42);
         margin: 0px 75px;
+        grid-column: 1/2;
     }
     .person{
         border-radius: 50%;
@@ -28,6 +31,7 @@
         border: 20px solid ;
         color:rgb(31,38,42);
         margin: 0px 75px;
+        grid-column: 3/4;
     }
     .graphic{
         border-radius: 50%;
@@ -36,6 +40,7 @@
         border: 20px solid ;
         color:rgb(31,38,42);
         margin: 0px 75px;
+        grid-column: 2/3;
     }
     .name{
         color:firebrick;

@@ -50,6 +50,21 @@ body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
+.main1{grid-column: 2/3;}
+.main2{grid-column: 3/4;}
+.main3{grid-column: 2/3;}
+.monitor{
+grid-column: 3/4;
+max-width: 100%;
+max-height: auto;}
+.error{
+    grid-column: 2/3;
+    max-width: 100%;
+    max-height: auto;}
+.feedback{
+    grid-column: 3/4;
+    max-width: 100%;
+    max-height: auto;}
 .customers{
     grid-column: 2/3;
 }

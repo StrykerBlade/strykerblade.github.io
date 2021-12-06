@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&family=Rubik:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px;
+
+}
+
+section{
+  grid-column: 2/3;
+}
+.title{
+  font-family: "Open sans"
+;
+  text-align: left;
+  font-size: 50px;
+  color: blue;
+
+}
+.image{
+    
+    grid-column: 3/4;
+    max-width: 100%;
+    height: auto;
+    opacity: 50%;
+    margin-right: 100px;
+    background-color: white;
+    
+}
+
+.early {
+  opacity: 50%;
+  margin-bottom: 0px;
+}
+.part2{
+  opacity: 70%;
+  margin-top: 0px;  
+}
+.box{   
+  padding: 5px 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+.email{
+  padding: 5px 30px;
+
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.ets{
+  background-color: blue;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 5px;
+}

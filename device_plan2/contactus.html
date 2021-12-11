@@ -17,6 +17,8 @@ form {
   border-radius: 1em;
 }
 
+
+
 ul {
   list-style: none;
   padding: 0;
@@ -64,7 +66,7 @@ textarea {
 
 .button {
   /* Align buttons with the text fields */
-  padding-left: 600px; /* same size as the label elements */
+  padding-left: 215px; /* same size as the label elements */
 }
 
 button {
@@ -126,12 +128,12 @@ button {
                  <label for="msg">Message:</label>
                  <textarea id="msg" name="user_message"></textarea>
                </li>
+               <li class="button">
+                <button type="submit">Send</button>
+              </li>
               </ul>
       
              </form>
-              <li class="button">
-                  <button type="submit">Send</button>
-              </li>
               <script>
                   // get the feedback div element so we can do something with it.
                   const feedbackElement = document.getElementById('feedback');

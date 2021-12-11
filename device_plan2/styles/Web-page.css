@@ -23,10 +23,11 @@ nav a{text-align: center;
 
 nav a:hover{
     color: #A43312;
+    border: #0A0500;
 }
 body{
     background-color: #0A0500;
-    color: #A43312;
+    color: #C97B2C;
 }
 .home{
     display: grid;
@@ -59,13 +60,23 @@ body{
 .picture{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     }
 .main1{grid-column: 2/3;
-    grid-row: 1/2;}
+    grid-row: 1/2;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    margin-right: 60px;}
 .main2{grid-column: 3/4;
-    grid-row: 2/3;}
+    grid-row: 2/3;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    margin-left: 60px;}
 .main3{grid-column: 2/3;
-    grid-row: 3/4;}
+    grid-row: 3/4;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    margin-right: 60px;}
 .monitor{
 grid-column: 3/4;
 max-width: 100%;
@@ -115,8 +126,17 @@ max-height: auto;}
   .active:after {
     content: "\2796";
   }
-.para1{grid-column: 1/2;}
-.para2{grid-column: 1/2;}
+.para1{grid-column: 1/2;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    margin-right: 60px;}
+.para2{grid-column: 1/2;
+    line-height: 2.5em;
+    font-size: 1.3em;
+    margin-right: 60px;}
+.para3{line-height: 2.5em;
+    font-size: 1.3em;
+    margin-right: 60px;}
 .image{
     grid-column: 2/3;
     max-width: 100%;
@@ -141,7 +161,7 @@ footer{
     background-color: #013140;
     }
 footer h3{color: #C97B2C;}
-footer a{color: #C97B2C;; 
+footer a{color: #C97B2C; 
     text-decoration: none;}
 footer a:hover{color: #A43312;}
 footer h3 a:hover{

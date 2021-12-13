@@ -6,7 +6,7 @@ header{
 
     background-color: #013140;
     font-family: Poppins, san-serif;
-    padding: 25px 50px;
+    padding: 5px 50px;
     }
 nav {
     display: flex;
@@ -15,9 +15,11 @@ nav {
 nav a{text-align: center; 
     color: #C97B2C; 
     text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
 }
 .logo{
-    max-width: 80px;
+    max-width: 120px;
     max-height: auto;
 }
 
@@ -35,6 +37,10 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
     font-family: 'Zen Old Mincho', serif;
 }
+
+.intro{font-size: 30px;
+text-align: center;}
+
 .information_page{
     display: grid;
     grid-template-columns: 60px 1fr 1fr 60px;
@@ -48,6 +54,7 @@ body{
 }
 .section3{
     grid-column: 2/4;
+    margin-bottom: 200px;
 }
 .mygrid {
     display: grid;
@@ -80,7 +87,8 @@ body{
 .monitor{
 grid-column: 3/4;
 max-width: 100%;
-max-height: auto;}
+max-height: auto;
+padding-top: 80px;}
 .error{
     grid-column: 2/3;
     max-width: 100%;
@@ -91,6 +99,7 @@ max-height: auto;}
     max-height: auto;}
 .customers{
     grid-column: 2/3;
+    margin-bottom: 50px;
 }
 .accordion {
     background-color: #A43312;
@@ -154,7 +163,6 @@ max-height: auto;}
 
 footer{
     padding: 25px 50px;
-    margin-top: 200px;
     display:flex;
     justify-content: space-around;
     align-items: center;
